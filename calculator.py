@@ -3,7 +3,7 @@ def calculator():
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
 
-    sign = input("Choose an operation +, -, *, / : ")
+    sign = input("Choose a operation +, -, *, / : ")
     
     if sign == '+':
         result = num1 + num2
